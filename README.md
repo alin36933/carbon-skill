@@ -2,6 +2,16 @@
 
 让任何AI Agent拥有专业的碳管理能力，帮企业从碳排数据采集到碳金融，走完碳管理全价值链。
 
+## 🚀 快速安装
+
+```bash
+# 方式一：克隆仓库
+git clone https://github.com/alin36933/carbon-skill.git
+
+# 方式二：在GitHub上点「Use this template」一键复制到你的账号
+# 方式三：直接下载ZIP — https://github.com/alin36933/carbon-skill/archive/refs/heads/main.zip
+```
+
 ## 概览
 
 Carbon-Skill 是一套面向企业客户的节能降碳AI技能包，覆盖**数据采集 → 碳排诊断 → 节能诊断 → 降本路径 → 绿电替代 → 合规检查 → 碳足迹报告 → 产品碳足迹 → 碳认证 → 行业对标 → 政策补贴 → 碳资产管理 → 碳交易 → 碳金融 → 碳中和路径 → ESG报告 → 碳关税 → 供应链碳管理 → 碳普惠**19个环节。
