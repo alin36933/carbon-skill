@@ -116,14 +116,69 @@
                 </div>
                 <div class="card">
                     <h4>🤖 在线体验</h4>
-                    <p>无需搭建，直接使用</p>
-                    <p style="margin-top: 12px;"><a href="https://c9hs29kmg2.coze.site" style="color: #00d4aa;">碳路·碳管理AI助手 →</a></p>
+                    <p>无需搭建，直接使用（即将上线）</p>
+                    <p style="margin-top: 12px; color: #888;">碳路·碳管理AI助手</p>
                 </div>
                 <div class="card">
                     <h4>📚 加入社群</h4>
                     <p>获取实操教程，同行交流</p>
                     <p style="margin-top: 12px; color: #ffcc00;">知识星球「稀碳云迹」199元/年</p>
                 </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📖 使用教程：搭配各种AI平台</h2>
+            <p style="color: #999; margin-bottom: 24px;">这个技能包是开源的，可以在任何AI平台使用。以下是主流平台的导入方法👇</p>
+
+            <h3>🅰️ 在 Coze 中使用（推荐）</h3>
+            <div class="card" style="margin-bottom: 16px;">
+                <ol style="padding-left: 20px; color: #ccc; line-height: 2;">
+                    <li>打开 <a href="https://www.coze.cn" style="color: #00d4aa;">Coze 官网</a>，创建 Bot</li>
+                    <li>在 Bot 配置中，点击「技能」→「导入技能」</li>
+                    <li>选择本仓库 <code style="background: #222; padding: 2px 8px; border-radius: 4px;">carbon-skill/skills/</code> 目录下的技能文件</li>
+                    <li>把 <code style="background: #222; padding: 2px 8px; border-radius: 4px;">knowledge/</code> 知识库导入 Bot 的知识库</li>
+                    <li>配置好 Prompt 提示词，发布即可使用</li>
+                </ol>
+                <p style="margin-top: 12px; color: #888; font-size: 0.9em;">💡 提示：技能包里的每个技能都有独立描述，Coze 会自动识别。</p>
+            </div>
+
+            <h3>🅱️ 在 Dify 中使用</h3>
+            <div class="card" style="margin-bottom: 16px;">
+                <ol style="padding-left: 20px; color: #ccc; line-height: 2;">
+                    <li>打开 <a href="https://dify.ai" style="color: #00d4aa;">Dify</a>，创建应用</li>
+                    <li>在「知识库」中上传 <code style="background: #222; padding: 2px 8px; border-radius: 4px;">knowledge/</code> 目录下的 JSON 文件作为 RAG 数据源</li>
+                    <li>在「工作流」中按需调用 <code style="background: #222; padding: 2px 8px; border-radius: 4px;">skills/</code> 里的技能描述作为节点</li>
+                    <li>配置 LLM 节点时，把技能描述写入 System Prompt</li>
+                </ol>
+                <p style="margin-top: 12px; color: #888; font-size: 0.9em;">💡 提示：Dify 的知识库支持 JSON 格式直接导入，不需要额外转换。</p>
+            </div>
+
+            <h3>🧠 在 ChatGPT / Claude 中使用</h3>
+            <div class="card" style="margin-bottom: 16px;">
+                <ol style="padding-left: 20px; color: #ccc; line-height: 2;">
+                    <li>下载本仓库的 ZIP 包</li>
+                    <li>打开 <code style="background: #222; padding: 2px 8px; border-radius: 4px;">knowledge/</code> 目录下的 JSON 文件，把内容直接复制粘贴给 AI</li>
+                    <li>告诉 AI：「你现在是碳管理专家，请根据以下知识库回答我的问题」</li>
+                    <li>上传企业数据，AI 就能帮你做碳核算、出报告、查政策</li>
+                </ol>
+                <p style="margin-top: 12px; color: #888; font-size: 0.9em;">💡 提示：可以用 GPTs 或 Claude Projects 把知识库设为固定上下文，一次配置长期使用。</p>
+            </div>
+
+            <h3>💻 开发者集成</h3>
+            <div class="card" style="margin-bottom: 16px;">
+                <ol style="padding-left: 20px; color: #ccc; line-height: 2;">
+                    <li>Fork 本仓库到你的账号</li>
+                    <li>按需调用 <code style="background: #222; padding: 2px 8px; border-radius: 4px;">skills/</code> 下的技能描述，集成到你的 AI Agent 中</li>
+                    <li>知识库 JSON 可直接用于 RAG 检索</li>
+                    <li>支持二次开发，按你的业务场景定制</li>
+                </ol>
+                <p style="margin-top: 12px; color: #888; font-size: 0.9em;">💡 提示：技能包使用 CC BY-NC 4.0 协议，商业用途请联系授权。</p>
+            </div>
+
+            <div class="card" style="background: #1a2a1a; border-color: #00d4aa;">
+                <h4 style="color: #00d4aa;">🎯 一句话总结</h4>
+                <p style="color: #ccc;">不管你在哪个AI平台，这个技能包都能用——<strong>下载 → 导入知识库 → 加载技能 → 开干</strong>。免费、开源、即装即用。</p>
             </div>
         </div>
 
