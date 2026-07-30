@@ -48,7 +48,7 @@
             <p class="subtitle">19个开源AI技能，覆盖企业碳管理全价值链</p>
             <div>
                 <a href="https://github.com/alin36933/carbon-skill" class="btn btn-primary">⭐ GitHub 开源项目</a>
-                <a href="#" class="btn btn-secondary" style="opacity: 0.5; cursor: default;">🤖 在线体验（即将上线）</a>
+                <a href="#" class="btn btn-secondary" id="chatBtn">🤖 在线体验碳管理AI助手</a>
             </div>
         </header>
 
@@ -116,8 +116,8 @@
                 </div>
                 <div class="card">
                     <h4>🤖 在线体验</h4>
-                    <p>无需搭建，直接使用（即将上线）</p>
-                    <p style="margin-top: 12px; color: #888;">碳路·碳管理AI助手</p>
+                    <p>无需搭建，直接使用</p>
+                    <p style="margin-top: 12px; color: #00d4aa;">碳管理AI助手 · 点击右下角浮窗开始对话</p>
                 </div>
                 <div class="card">
                     <h4>📚 加入社群</h4>
@@ -187,5 +187,26 @@
             <p style="margin-top: 8px;">🌱 跟着政策坚定走碳这条路</p>
         </footer>
     </div>
+
+    <!-- Coze Web SDK -->
+    <script src="https://lf-cdn.coze.cn/obj/unpkg/latest/coze/web-sdk/dist/js-umd/index.min.js"></script>
+    <script>
+      // 初始化 Web SDK（浮窗模式，自动加载）
+      cozeWebSDK.init({
+        projectId: '7667413230272380971',
+        refreshToken: () => Promise.resolve("sat_XEVAWtmWpL25OxV2HGyCNUxeAZNV2RM6WzLG9OaSN3zy3wCxYHyTv6av2eZ8dCSm"),
+      });
+
+      // 点击"在线体验"按钮展开聊天
+      document.getElementById('chatBtn').addEventListener('click', function(e) {
+        e.preventDefault();
+        // 如果 Web SDK 已加载，通过 postMessage 展开
+        if (window.cozeWebSDK) {
+          // 如果浮窗已存在，直接点击展开
+          const chatIcon = document.querySelector('.coze-sdk-chat-icon');
+          if (chatIcon) chatIcon.click();
+        }
+      });
+    </script>
 </body>
 </html>
