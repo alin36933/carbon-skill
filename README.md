@@ -1,7 +1,7 @@
 # Carbon-Skill 🌱
 **Global Carbon Management AI Skill Pack**
 
-**节能降碳AI技能包 | 让任何AI Agent拥有专业的碳管理能力**
+**全球碳管理AI技能包 — 19个开源技能，覆盖企业碳管理全价值链**
 
 <p align="center">
   <a href="#english"><img src="https://img.shields.io/badge/English-blue?style=flat-square" alt="English"></a>
@@ -40,7 +40,7 @@ Carbon management is entering a **mandatory era** globally:
 git clone https://github.com/alin36933/carbon-skill.git
 ```
 
-Then load the skills into your AI Agent (Coze, Dify, ChatGPT, Claude, etc.).
+Load the skills into your AI Agent (Coze, Dify, ChatGPT, Claude, etc.).
 
 ### 19 Skills (4 Layers)
 
@@ -51,23 +51,9 @@ Then load the skills into your AI Agent (Coze, Dify, ChatGPT, Claude, etc.).
 | 🟡 **Value** | Incentive, Carbon Asset, Trading, Finance | Apply subsidies → manage quotas → trade & finance |
 | 🔴 **Strategy** | Strategy, ESG, Export, Supply Chain, Carbon Credit | Roadmap → ESG reports → CBAM compliance → net-zero |
 
-### Carbon Markets Comparison (2025 Prices)
-
-| Market | Start | Coverage | 2025 Price |
-|--------|-------|----------|-----------|
-| 🇪🇺 EU ETS | 2005 | ~40% EU emissions | €73/ton |
-| 🇨🇳 China ETS | 2021 | ~60% national | ¥74.63/ton |
-| 🇺🇸 California | 2013 | ~80% CA emissions | $42.89/ton |
-| 🇰🇷 Korea K-ETS | 2015 | ~70% national | ~₩35,000/ton |
-
 ### Try It Online
 
-👉 **[https://x7nzws3zvt.coze.site](https://x7nzws3zvt.coze.site)** — AI carbon management assistant, free to use.
-
-### Community
-
-- **Knowledge Planet** (Chinese): [凡花·碳路](https://wx.zsxq.com/group/88884552454582) — Carbon management tutorials, policy updates, trading strategies.
-- **GitHub Issues**: Open an issue for questions or suggestions.
+👉 **[Carbon Trace](https://x7nzws3zvt.coze.site)** — AI carbon management assistant, free to use.
 
 ### License
 
@@ -86,17 +72,6 @@ Then load the skills into your AI Agent (Coze, Dify, ChatGPT, Claude, etc.).
 | GB/T 32150-2025 新国标：范围三从"可选"变"必识别" | 2026.7.1 | 所有工业企业数据必须按新标准重算 |
 | 42号令：五大行业强制绿电消费考核 | 2026.8.1 | 电解铝/钢铁/水泥/多晶硅/数据中心 |
 | 《生态环境法典》：碳管理正式入法 | 2026.8.15 | 数据造假触及刑法，企业与个人双罚制 |
-
-📊 **碳管理市场已达1099亿元**，重点排放单位3378家，人才缺口30:1。
-
-### 多地区支持
-
-| 地区 | 政策支持 | 排放因子 |
-|------|---------|---------|
-| 🇨🇳 **中国** | 全国碳市场、CCER、国标 | 576项国家排放因子 |
-| 🇪🇺 **欧盟** | EU ETS、CBAM、CSRD | IPCC + EU ETS基准值 |
-| 🇺🇸 **美国** | EPA、加州碳市场、RGGI | eGRID排放因子 |
-| 🌍 **国际通用** | GHG Protocol、ISO 14064 | IPCC默认数据库(27,424条) |
 
 ### 快速开始
 
@@ -150,32 +125,9 @@ git clone https://github.com/alin36933/carbon-skill.git
 供应链管理 → 碳普惠
 ```
 
-### 知识库结构
-
-```
-knowledge/
-├── CN/          🇨🇳 中国碳管理政策、标准、案例
-├── EU/          🇪🇺 EU ETS, CBAM, CSRD
-├── US/          🇺🇸 EPA, 加州碳市场, RGGI
-└── GLOBAL/      🌍 IPCC, GHG Protocol, ISO 14064
-```
-
 ### 在线体验
 
-👉 **[稀碳云迹官网](https://x7nzws3zvt.coze.site)** — 碳管理AI助手，免费使用。
-
-### 适用人群
-
-- **想入行碳管理的人**：学会这套技能包，帮企业做碳管理服务
-- **中小企业主**：给自己的企业做节能降碳，省成本拿补贴
-- **碳管理从业者**：AI辅助诊断，工作效率提升10倍
-- **开发者/Agent创作者**：集成到你的AI Agent中
-
-### 加入社群
-
-碳管理爆发窗口期已到，欢迎加入「**凡花·碳路**」知识星球：
-
-👉 **[点击加入](https://wx.zsxq.com/group/88884552454582)**（199元/年）
+👉 **[稀碳云迹](https://x7nzws3zvt.coze.site)** — 碳管理AI助手，免费使用。
 
 ### 许可证
 
@@ -183,6 +135,6 @@ knowledge/
 
 ### 作者
 
-**稀碳云迹 (Carbon Trace)** · 稀碳云迹（包头市）数字科技
+**稀碳云迹（Carbon Trace）**
 
-> 🌱 碳管理实战派聚集地 —— 跟着政策坚定走碳这条路
+> 🌱 Follow the policy, walk the carbon path.
